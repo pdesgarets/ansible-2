@@ -1,0 +1,4 @@
+---
+# tasks file for ansible-2
+- name: create file
+  file: path=/tmp/tmp_file state=directory
